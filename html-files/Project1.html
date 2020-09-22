@@ -3,17 +3,20 @@
 <head>
 	<meta charset = "UTF-8">
 	<title>HTML5project.png(986&#215;722)</title>
+	<link rel="stylesheet" href="css-files/Project1.css">
 </head>
 <body>
-	<header><h1>VINOD KUMAR</h1></header>
-	<nav>
-		<a href="#Foods">One</a>
-		<a href="#Achievements">Two</a>
-		<a href="#More">Three</a>
-		<a href="#end_of_page">End of page</a>
-	</nav>
-	<section id = "Foods">
-		<header><h2>Favourite Foods</h2></header>
+	<header>
+		<h1>Vinod Kumar</h1>
+		<nav>
+			<a href="#Foods">One</a>
+			<a href="#Achievements">Two</a>
+			<a href="#More">Three</a>
+			<a href="#end_of_page">End of page</a>
+		</nav>
+	</header>
+	<section class = "half"  id = "Foods">
+		<h2>Favourite Foods</h2>
 		<ul>
 			<li>Cold Coffee</li>
 			<li>Aaloo Bhujia</li>
@@ -21,9 +24,9 @@
 			<li>Rasgulla</li>
 		</ul>
 	</section>
-	<section id = "Achievements">
-		<header><h2>Achievements</h2></header>
-		<p> Progress in this course(100%)
+	<section class = "half" id = "Achievements">
+		<h2>Achievements</h2>
+		<p class="fancy plain"> Progress in this course(100%)
 		<progress value="100" max="100"></progress>
 		<br>Progress in the Specialzation capstone(20%)
 		<progress value="20" max="100"></progress>
@@ -31,9 +34,9 @@
 		<progress value="67" max="100"></progress>
 		</p>
 	</section>
-	<section id = "More">
-		<header><h2>More About Me</h2></header>
-		<details>
+	<section class="whole" id = "More">
+		<h2>More About Me</h2>
+		<details open>
 			<summary>
 				My Childhood
 			</summary>
